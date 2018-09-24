@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RFontManager_Example' do
+  pod 'RFontManager', :path => '../'
+
+  target 'RFontManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
