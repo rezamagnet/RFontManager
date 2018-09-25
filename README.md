@@ -1,5 +1,4 @@
 # RFontManager
-<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/rezamagnet/RFontManager.svg?style=flat)](https://travis-ci.org/rezamagnet/RFontManager)
 [![Version](https://img.shields.io/cocoapods/v/RFontManager.svg?style=flat)](https://cocoapods.org/pods/RFontManager)
@@ -30,4 +29,3 @@ Reza Khonsari, rezakhonsari@icloud.com
 RFontManager is available under the MIT license. See the LICENSE file for more info.
 =======
 Change fonts in app easily
->>>>>>> 515c580ce6f4d561ee1abe06d44f9efeeddd1612
