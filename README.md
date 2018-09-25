@@ -1,7 +1,7 @@
 # RFontManager
 <<<<<<< HEAD
 
-[![CI Status](https://img.shields.io/travis/Reza Khonsari/RFontManager.svg?style=flat)](https://travis-ci.org/Reza Khonsari/RFontManager)
+[![CI Status](https://img.shields.io/travis/rezamagnet/RFontManager.svg?style=flat)](https://travis-ci.org/Reza Khonsari/RFontManager)
 [![Version](https://img.shields.io/cocoapods/v/RFontManager.svg?style=flat)](https://cocoapods.org/pods/RFontManager)
 [![License](https://img.shields.io/cocoapods/l/RFontManager.svg?style=flat)](https://cocoapods.org/pods/RFontManager)
 [![Platform](https://img.shields.io/cocoapods/p/RFontManager.svg?style=flat)](https://cocoapods.org/pods/RFontManager)
