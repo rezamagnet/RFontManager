@@ -1,0 +1,16 @@
+PODS:
+  - RFontManager (0.1.0)
+
+DEPENDENCIES:
+  - RFontManager (from `../`)
+
+EXTERNAL SOURCES:
+  RFontManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RFontManager: 616e843c69a4bea3ca059dbaed8f6ca725409fc3
+
+PODFILE CHECKSUM: 80bbd824fb527317c766b49ef79f5b204c4db9a5
+
+COCOAPODS: 1.5.0

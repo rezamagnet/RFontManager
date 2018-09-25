@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		267AE00901A00F4471F2DA04C85DAA0C /* Pods-RFontManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C84088B19DE0CC28704DBC309DA4B711 /* Pods-RFontManager_Tests-dummy.m */; };
+		50B7806A76B7F449FD8FD4BF14A29971 /* Pods-RFontManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA274E9CD13A58C7CA32EBF9BFCCC1EE /* Pods-RFontManager_Example-dummy.m */; };
+		73088A7234B6B831F6F1017EA51CE1CA /* RFontManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 482D0518E7687FFB9E38A63703E0A437 /* RFontManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74D0713554505E2A6C7909D023DC668B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6DFBFFBD1D2E63859288048CDB1E44 /* ReplaceMe.swift */; };
+		7B207F851ADCE2B21BFB836A821B668E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		835DB079215A05E6007E9632 /* Extension+Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DB074215A05DB007E9632 /* Extension+Labels.swift */; };
+		835DB07A215A05E6007E9632 /* Extension+Textfields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DB071215A05DB007E9632 /* Extension+Textfields.swift */; };
+		835DB07B215A05E6007E9632 /* Extension+Textviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DB072215A05DB007E9632 /* Extension+Textviews.swift */; };
+		835DB07C215A05E6007E9632 /* RFM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DB073215A05DB007E9632 /* RFM.swift */; };
+		85AABE07C65C72FF58D9AB0B7662BD58 /* Pods-RFontManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB08FE2C3FA624FB639EE31923A31596 /* Pods-RFontManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D4DD03BFF94A2D96EF6261420CEC7D /* RFontManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C66C68A2892600F7AF05D2246C8668D /* RFontManager-dummy.m */; };
+		C4BC6E8F8B9D1C9191A5C8BD6D0E5A4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F2D89AF148C3BA1FC1576B0FAD816871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FE6A87B79143117018A2DA29D74C813F /* Pods-RFontManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C25019260B5FD721D7AF569C8D3EB4AA /* Pods-RFontManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A63AC99EB1A11E9C765C4E2C838AF37D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E312032562D12023F788F44660F4DCA5;
+			remoteInfo = "Pods-RFontManager_Example";
+		};
+		ED50ED41B7E05B2BD8D653BC5A9CC642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D769D8D556F92E57636B1D7F0AA233DA;
+			remoteInfo = RFontManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0211865EFD6A60E1660CEE756999C36A /* Pods-RFontManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RFontManager_Tests.modulemap"; sourceTree = "<group>"; };
+		04CF3512E715793F0FF15397EC983BA8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6DFBFFBD1D2E63859288048CDB1E44 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RFontManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		0C774B346AE3275608AEC723AFD5E6E7 /* Pods_RFontManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RFontManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		103EB633FF7481FB2EE001D8E3CEDE18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B651FF6B1F8FCCF8AB80193EA53834F /* Pods-RFontManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RFontManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		4064780B9EB95D9DF899FF62AFB17B4D /* Pods-RFontManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RFontManager_Example.modulemap"; sourceTree = "<group>"; };
+		4115DE2319C1B946C4D3CB9529E92447 /* Pods-RFontManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RFontManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		444A6EC84D5BCDC36C3A7641ABB529CF /* RFontManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFontManager-prefix.pch"; sourceTree = "<group>"; };
+		482D0518E7687FFB9E38A63703E0A437 /* RFontManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFontManager-umbrella.h"; sourceTree = "<group>"; };
+		559E737618ED72B27346BB4982382828 /* RFontManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RFontManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C66C68A2892600F7AF05D2246C8668D /* RFontManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RFontManager-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6845E6714D2FDD3A2718C25EED676CB4 /* RFontManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RFontManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		76B04041CC3A76A1257331564500EA31 /* Pods-RFontManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RFontManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		76BCAEB07A2BB209CC80F0B52FA68E77 /* RFontManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RFontManager.modulemap; sourceTree = "<group>"; };
+		7783A25C56CE2A5D47D5933312E0769B /* Pods-RFontManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RFontManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		823655DCB55DE8F32418884BCC9F27AD /* Pods-RFontManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RFontManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		835DB071215A05DB007E9632 /* Extension+Textfields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Textfields.swift"; sourceTree = "<group>"; };
+		835DB072215A05DB007E9632 /* Extension+Textviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Textviews.swift"; sourceTree = "<group>"; };
+		835DB073215A05DB007E9632 /* RFM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFM.swift; sourceTree = "<group>"; };
+		835DB074215A05DB007E9632 /* Extension+Labels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Labels.swift"; sourceTree = "<group>"; };
+		8D830222D84C897F6786D24AA2A559C0 /* Pods-RFontManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RFontManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		900D58D08DCAFABD3C52F55CCE826D34 /* RFontManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RFontManager.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		942557CD72712E2CB6D032A383E7612D /* Pods-RFontManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RFontManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9717C204567E439B8C26863F47CF583D /* Pods-RFontManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RFontManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9965FD1946B972FA513DD253629810D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9A301B539D51D5D8A2B922A0FF3EB142 /* Pods-RFontManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RFontManager_Example-resources.sh"; sourceTree = "<group>"; };
+		BA274E9CD13A58C7CA32EBF9BFCCC1EE /* Pods-RFontManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RFontManager_Example-dummy.m"; sourceTree = "<group>"; };
+		BE9F32929BBFF85C605F6EF24E883DBE /* Pods-RFontManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RFontManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C25019260B5FD721D7AF569C8D3EB4AA /* Pods-RFontManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RFontManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C84088B19DE0CC28704DBC309DA4B711 /* Pods-RFontManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RFontManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		CB08FE2C3FA624FB639EE31923A31596 /* Pods-RFontManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RFontManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		CDFC737B64C4AEE9C7AC6F106D989D5C /* Pods-RFontManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RFontManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D408924806CB7AB17AC08C0344B81F87 /* Pods_RFontManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RFontManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48EEF6F3E57F282466C87D48B846099 /* Pods-RFontManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RFontManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DB7B670CC771A19B0211A9B6E6885080 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE24DB92C74822B1926FC58BAAF36A48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46CCB1089F140D27B421DEE98586CAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BC6E8F8B9D1C9191A5C8BD6D0E5A4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0751F06D753963AB6D2C864718437CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B207F851ADCE2B21BFB836A821B668E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E88D0B589F253883B90C6A16A39A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D89AF148C3BA1FC1576B0FAD816871 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EA754B0D427D89F402E7547EC65ADBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D408924806CB7AB17AC08C0344B81F87 /* Pods_RFontManager_Example.framework */,
+				0C774B346AE3275608AEC723AFD5E6E7 /* Pods_RFontManager_Tests.framework */,
+				559E737618ED72B27346BB4982382828 /* RFontManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CD4446044045820D9CF985336C58304 /* Pods-RFontManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				04CF3512E715793F0FF15397EC983BA8 /* Info.plist */,
+				4064780B9EB95D9DF899FF62AFB17B4D /* Pods-RFontManager_Example.modulemap */,
+				8D830222D84C897F6786D24AA2A559C0 /* Pods-RFontManager_Example-acknowledgements.markdown */,
+				942557CD72712E2CB6D032A383E7612D /* Pods-RFontManager_Example-acknowledgements.plist */,
+				BA274E9CD13A58C7CA32EBF9BFCCC1EE /* Pods-RFontManager_Example-dummy.m */,
+				823655DCB55DE8F32418884BCC9F27AD /* Pods-RFontManager_Example-frameworks.sh */,
+				9A301B539D51D5D8A2B922A0FF3EB142 /* Pods-RFontManager_Example-resources.sh */,
+				CB08FE2C3FA624FB639EE31923A31596 /* Pods-RFontManager_Example-umbrella.h */,
+				CDFC737B64C4AEE9C7AC6F106D989D5C /* Pods-RFontManager_Example.debug.xcconfig */,
+				D48EEF6F3E57F282466C87D48B846099 /* Pods-RFontManager_Example.release.xcconfig */,
+			);
+			name = "Pods-RFontManager_Example";
+			path = "Target Support Files/Pods-RFontManager_Example";
+			sourceTree = "<group>";
+		};
+		58CA6208DC32BCB3ADBBEA16D8A8476F /* Pods-RFontManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DB7B670CC771A19B0211A9B6E6885080 /* Info.plist */,
+				0211865EFD6A60E1660CEE756999C36A /* Pods-RFontManager_Tests.modulemap */,
+				BE9F32929BBFF85C605F6EF24E883DBE /* Pods-RFontManager_Tests-acknowledgements.markdown */,
+				76B04041CC3A76A1257331564500EA31 /* Pods-RFontManager_Tests-acknowledgements.plist */,
+				C84088B19DE0CC28704DBC309DA4B711 /* Pods-RFontManager_Tests-dummy.m */,
+				7783A25C56CE2A5D47D5933312E0769B /* Pods-RFontManager_Tests-frameworks.sh */,
+				1B651FF6B1F8FCCF8AB80193EA53834F /* Pods-RFontManager_Tests-resources.sh */,
+				C25019260B5FD721D7AF569C8D3EB4AA /* Pods-RFontManager_Tests-umbrella.h */,
+				4115DE2319C1B946C4D3CB9529E92447 /* Pods-RFontManager_Tests.debug.xcconfig */,
+				9717C204567E439B8C26863F47CF583D /* Pods-RFontManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-RFontManager_Tests";
+			path = "Target Support Files/Pods-RFontManager_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C8D6E83D4425561668405BF204CA7FFB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1EA754B0D427D89F402E7547EC65ADBB /* Products */,
+				F32F9512625698134D0C4AE59332F458 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ADED9244BDE3B24C4FE791A47654081A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9965FD1946B972FA513DD253629810D4 /* LICENSE */,
+				FE24DB92C74822B1926FC58BAAF36A48 /* README.md */,
+				6845E6714D2FDD3A2718C25EED676CB4 /* RFontManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8D6E83D4425561668405BF204CA7FFB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8165C1B292E5CED61130A9F8A6BE82A /* RFontManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D94AE5E3B0F1B62D1B7BD56953190429 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				103EB633FF7481FB2EE001D8E3CEDE18 /* Info.plist */,
+				76BCAEB07A2BB209CC80F0B52FA68E77 /* RFontManager.modulemap */,
+				900D58D08DCAFABD3C52F55CCE826D34 /* RFontManager.xcconfig */,
+				5C66C68A2892600F7AF05D2246C8668D /* RFontManager-dummy.m */,
+				444A6EC84D5BCDC36C3A7641ABB529CF /* RFontManager-prefix.pch */,
+				482D0518E7687FFB9E38A63703E0A437 /* RFontManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RFontManager";
+			sourceTree = "<group>";
+		};
+		F32F9512625698134D0C4AE59332F458 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CD4446044045820D9CF985336C58304 /* Pods-RFontManager_Example */,
+				58CA6208DC32BCB3ADBBEA16D8A8476F /* Pods-RFontManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F8165C1B292E5CED61130A9F8A6BE82A /* RFontManager */ = {
+			isa = PBXGroup;
+			children = (
+				835DB074215A05DB007E9632 /* Extension+Labels.swift */,
+				835DB071215A05DB007E9632 /* Extension+Textfields.swift */,
+				835DB072215A05DB007E9632 /* Extension+Textviews.swift */,
+				835DB073215A05DB007E9632 /* RFM.swift */,
+				0C6DFBFFBD1D2E63859288048CDB1E44 /* ReplaceMe.swift */,
+				ADED9244BDE3B24C4FE791A47654081A /* Pod */,
+				D94AE5E3B0F1B62D1B7BD56953190429 /* Support Files */,
+			);
+			name = RFontManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54B12C508DA3AD6402EA5E3888AB751C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AABE07C65C72FF58D9AB0B7662BD58 /* Pods-RFontManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD773FD5CCBA47F3D07B17B9098C04CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73088A7234B6B831F6F1017EA51CE1CA /* RFontManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAB03AF2D9425C798BE9946EB07CBA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6A87B79143117018A2DA29D74C813F /* Pods-RFontManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7A7290ED9BA8898BBF0A02DFF5C10103 /* Pods-RFontManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AE9652C2E6FFC363C55937E5CF0164F /* Build configuration list for PBXNativeTarget "Pods-RFontManager_Tests" */;
+			buildPhases = (
+				1240FEFE603713DBA19550E5E339118C /* Sources */,
+				B0751F06D753963AB6D2C864718437CD /* Frameworks */,
+				CEAB03AF2D9425C798BE9946EB07CBA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB93D056216B6680D36358712C5963EE /* PBXTargetDependency */,
+			);
+			name = "Pods-RFontManager_Tests";
+			productName = "Pods-RFontManager_Tests";
+			productReference = 0C774B346AE3275608AEC723AFD5E6E7 /* Pods_RFontManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D769D8D556F92E57636B1D7F0AA233DA /* RFontManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1D5677A74885130597357A7049F9F0 /* Build configuration list for PBXNativeTarget "RFontManager" */;
+			buildPhases = (
+				0E1622A1BD5E458B943423BE34122FD2 /* Sources */,
+				46CCB1089F140D27B421DEE98586CAA1 /* Frameworks */,
+				CD773FD5CCBA47F3D07B17B9098C04CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFontManager;
+			productName = RFontManager;
+			productReference = 559E737618ED72B27346BB4982382828 /* RFontManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E312032562D12023F788F44660F4DCA5 /* Pods-RFontManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D7441F19CDC038384F682D9DAE94AB6 /* Build configuration list for PBXNativeTarget "Pods-RFontManager_Example" */;
+			buildPhases = (
+				C135B8C74765B48D7501CC3E1B208951 /* Sources */,
+				C8E88D0B589F253883B90C6A16A39A44 /* Frameworks */,
+				54B12C508DA3AD6402EA5E3888AB751C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14DF6696D92BB6BE05F77858D6EB19F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-RFontManager_Example";
+			productName = "Pods-RFontManager_Example";
+			productReference = D408924806CB7AB17AC08C0344B81F87 /* Pods_RFontManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					D769D8D556F92E57636B1D7F0AA233DA = {
+						LastSwiftMigration = 1000;
+					};
+					E312032562D12023F788F44660F4DCA5 = {
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1EA754B0D427D89F402E7547EC65ADBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E312032562D12023F788F44660F4DCA5 /* Pods-RFontManager_Example */,
+				7A7290ED9BA8898BBF0A02DFF5C10103 /* Pods-RFontManager_Tests */,
+				D769D8D556F92E57636B1D7F0AA233DA /* RFontManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E1622A1BD5E458B943423BE34122FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835DB07B215A05E6007E9632 /* Extension+Textviews.swift in Sources */,
+				74D0713554505E2A6C7909D023DC668B /* ReplaceMe.swift in Sources */,
+				835DB07A215A05E6007E9632 /* Extension+Textfields.swift in Sources */,
+				835DB07C215A05E6007E9632 /* RFM.swift in Sources */,
+				835DB079215A05E6007E9632 /* Extension+Labels.swift in Sources */,
+				96D4DD03BFF94A2D96EF6261420CEC7D /* RFontManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1240FEFE603713DBA19550E5E339118C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267AE00901A00F4471F2DA04C85DAA0C /* Pods-RFontManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C135B8C74765B48D7501CC3E1B208951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B7806A76B7F449FD8FD4BF14A29971 /* Pods-RFontManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14DF6696D92BB6BE05F77858D6EB19F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RFontManager;
+			target = D769D8D556F92E57636B1D7F0AA233DA /* RFontManager */;
+			targetProxy = ED50ED41B7E05B2BD8D653BC5A9CC642 /* PBXContainerItemProxy */;
+		};
+		CB93D056216B6680D36358712C5963EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RFontManager_Example";
+			target = E312032562D12023F788F44660F4DCA5 /* Pods-RFontManager_Example */;
+			targetProxy = A63AC99EB1A11E9C765C4E2C838AF37D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		356ED649819078418800E350F9E56D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4115DE2319C1B946C4D3CB9529E92447 /* Pods-RFontManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RFontManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RFontManager_Tests/Pods-RFontManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37B2985C3389DA5CE1CBB5C2401E7D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48EEF6F3E57F282466C87D48B846099 /* Pods-RFontManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RFontManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RFontManager_Example/Pods-RFontManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52358A23FAD1D446C85338312A511F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900D58D08DCAFABD3C52F55CCE826D34 /* RFontManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RFontManager/RFontManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RFontManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RFontManager/RFontManager.modulemap";
+				PRODUCT_MODULE_NAME = RFontManager;
+				PRODUCT_NAME = RFontManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C0881DFD68F3BF650076BFD505E6CAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDFC737B64C4AEE9C7AC6F106D989D5C /* Pods-RFontManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RFontManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RFontManager_Example/Pods-RFontManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB66AE2AD5E1AD199A137B011A9F130F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9717C204567E439B8C26863F47CF583D /* Pods-RFontManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RFontManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RFontManager_Tests/Pods-RFontManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F139356CB6A91C0A0F03EB1595AC7664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900D58D08DCAFABD3C52F55CCE826D34 /* RFontManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RFontManager/RFontManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RFontManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RFontManager/RFontManager.modulemap";
+				PRODUCT_MODULE_NAME = RFontManager;
+				PRODUCT_NAME = RFontManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1D5677A74885130597357A7049F9F0 /* Build configuration list for PBXNativeTarget "RFontManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F139356CB6A91C0A0F03EB1595AC7664 /* Debug */,
+				52358A23FAD1D446C85338312A511F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AE9652C2E6FFC363C55937E5CF0164F /* Build configuration list for PBXNativeTarget "Pods-RFontManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356ED649819078418800E350F9E56D3C /* Debug */,
+				EB66AE2AD5E1AD199A137B011A9F130F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D7441F19CDC038384F682D9DAE94AB6 /* Build configuration list for PBXNativeTarget "Pods-RFontManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0881DFD68F3BF650076BFD505E6CAE6 /* Debug */,
+				37B2985C3389DA5CE1CBB5C2401E7D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

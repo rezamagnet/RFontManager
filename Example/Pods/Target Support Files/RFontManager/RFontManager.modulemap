@@ -1,0 +1,6 @@
+framework module RFontManager {
+  umbrella header "RFontManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

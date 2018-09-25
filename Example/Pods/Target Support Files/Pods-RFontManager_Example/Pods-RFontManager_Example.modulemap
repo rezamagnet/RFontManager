@@ -1,0 +1,6 @@
+framework module Pods_RFontManager_Example {
+  umbrella header "Pods-RFontManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

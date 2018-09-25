@@ -1,0 +1,22 @@
+{
+  "name": "RFontManager",
+  "version": "0.1.0",
+  "summary": "Change fonts in app easily",
+  "description": "",
+  "homepage": "https://github.com/Reza Khonsari/RFontManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Reza Khonsari": "rezakhonsari@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/rezamagnet/RFontManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "RFontManager/Classes/**/*"
+}
