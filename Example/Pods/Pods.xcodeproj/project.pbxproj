@@ -10,7 +10,6 @@
 		267AE00901A00F4471F2DA04C85DAA0C /* Pods-RFontManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C84088B19DE0CC28704DBC309DA4B711 /* Pods-RFontManager_Tests-dummy.m */; };
 		50B7806A76B7F449FD8FD4BF14A29971 /* Pods-RFontManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA274E9CD13A58C7CA32EBF9BFCCC1EE /* Pods-RFontManager_Example-dummy.m */; };
 		73088A7234B6B831F6F1017EA51CE1CA /* RFontManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 482D0518E7687FFB9E38A63703E0A437 /* RFontManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74D0713554505E2A6C7909D023DC668B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6DFBFFBD1D2E63859288048CDB1E44 /* ReplaceMe.swift */; };
 		7B207F851ADCE2B21BFB836A821B668E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		835DB079215A05E6007E9632 /* Extension+Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DB074215A05DB007E9632 /* Extension+Labels.swift */; };
 		835DB07A215A05E6007E9632 /* Extension+Textfields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835DB071215A05DB007E9632 /* Extension+Textfields.swift */; };
@@ -43,7 +42,6 @@
 /* Begin PBXFileReference section */
 		0211865EFD6A60E1660CEE756999C36A /* Pods-RFontManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RFontManager_Tests.modulemap"; sourceTree = "<group>"; };
 		04CF3512E715793F0FF15397EC983BA8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C6DFBFFBD1D2E63859288048CDB1E44 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RFontManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		0C774B346AE3275608AEC723AFD5E6E7 /* Pods_RFontManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RFontManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		103EB633FF7481FB2EE001D8E3CEDE18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B651FF6B1F8FCCF8AB80193EA53834F /* Pods-RFontManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RFontManager_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -231,7 +229,6 @@
 				835DB071215A05DB007E9632 /* Extension+Textfields.swift */,
 				835DB072215A05DB007E9632 /* Extension+Textviews.swift */,
 				835DB073215A05DB007E9632 /* RFM.swift */,
-				0C6DFBFFBD1D2E63859288048CDB1E44 /* ReplaceMe.swift */,
 				ADED9244BDE3B24C4FE791A47654081A /* Pod */,
 				D94AE5E3B0F1B62D1B7BD56953190429 /* Support Files */,
 			);
@@ -364,7 +361,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				835DB07B215A05E6007E9632 /* Extension+Textviews.swift in Sources */,
-				74D0713554505E2A6C7909D023DC668B /* ReplaceMe.swift in Sources */,
 				835DB07A215A05E6007E9632 /* Extension+Textfields.swift in Sources */,
 				835DB07C215A05E6007E9632 /* RFM.swift in Sources */,
 				835DB079215A05E6007E9632 /* Extension+Labels.swift in Sources */,
