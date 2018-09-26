@@ -29,3 +29,30 @@ Reza Khonsari, rezakhonsari@icloud.com
 RFontManager is available under the MIT license. See the LICENSE file for more info.
 =======
 Change fonts in app easily
+
+
+Usage
+=======
+
+
+First of all import framework:
+
+```ruby
+import RFontManager
+```
+
+Use this code get all fonts on app:
+
+```ruby
+RFM.allFontsOnThisApplication()
+```
+
+Use this code to change font:
+
+```ruby
+RFM.change(to: "SFUIDisplay")
+```
+
+for bold , heavy , light & ... just use in storyboard
+
+
